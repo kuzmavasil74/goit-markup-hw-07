@@ -97,8 +97,7 @@
         }   
 }
 .telegram-container{
-    display: block;
-    align-items: center;
+    @extend %display-center;
     margin-top: 48px;
     margin-left: 12px;
     width: 200px;
